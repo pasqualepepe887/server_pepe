@@ -2,7 +2,7 @@ name: Esegui Script Python Periodicamente
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Esegui ogni giorno all'1:00 AM UTC, puoi personalizzare la cron syntax
+    - cron: '0 14 * * *'  # Esegui ogni giorno all'1:00 AM UTC, puoi personalizzare la cron syntax
 
 jobs:
   esegui_script:
